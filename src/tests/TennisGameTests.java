@@ -8,13 +8,13 @@ import esercizio2.*;
 
 public class TennisGameTests {
 	Player player1, player2;
-	Match aMatch;
+	TennisGame aMatch;
 	
 	@Before
 	public void setUp(){
 		player1 = new Player("Player 1");
 		player2 = new Player("Player 2");
-		aMatch = new Match(player1,player2);
+		aMatch = new TennisGame(player1,player2);
 	}
 	
 	@Test
